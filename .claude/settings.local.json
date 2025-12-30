@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(sp.constitution)",
+      "Skill(sp.specify)",
+      "Bash(git fetch --all --prune)",
+      "Skill(sp.tasks)",
+      "Bash(python -m http.server 8000)",
+      "Bash(powershell -Command \"Get-Content C:\\\\khusro\\\\index.html -First 50\")",
+      "Bash(powershell -Command \"Get-Content C:\\\\khusro\\\\index.html -First 100\")",
+      "Bash(findstr -i \"package\\\\|server\\\\|config\\\\|json\")",
+      "Bash(dir /s *.json *.js *.html *.css *.py *.php *.rb *.yml *.yaml *.toml *.ini *.conf *.sh *.bat *.cmd)",
+      "Bash(python -c \"import http.server; import socketserver; PORT = 8000; Handler = http.server.SimpleHTTPRequestHandler; with socketserver.TCPServer\\(\\('''', PORT\\), Handler\\) as httpd: print\\(f''Server running at http://localhost:{PORT}/''\\); httpd.serve_forever\\(\\)\")",
+      "Bash(node server.js:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(powershell -Command \"$wc = New-Object System.Net.WebClient; try { $wc.DownloadString\\(''http://localhost:8000/''\\) | Out-Null } catch { Write-Error $_Exception.Message }\")",
+      "Bash(curl:*)",
+      "Bash(gh auth:*)",
+      "Bash(git remote add:*)",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

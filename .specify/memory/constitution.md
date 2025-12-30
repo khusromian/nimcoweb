@@ -1,55 +1,49 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: N/A → 1.0.0
+- Modified principles: N/A (new constitution)
+- Added sections: Core Principles (Simplicity, Clarity, Accessibility), Constraints, Development Workflow
+- Removed sections: N/A
+- Templates requiring updates: N/A (new file)
+- Follow-up TODOs: None
+-->
+# Simple Single-Page Food Website Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Simplicity
+All design and functionality must prioritize simplicity. User interfaces should be clean and uncluttered, with minimal cognitive load required to navigate and understand the content. Features should be added only when they provide clear value without complicating the user experience.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity
+All product information must be presented clearly with simple English language. Product names and descriptions should be straightforward and immediately understandable. Visual hierarchy should guide users naturally to important information and calls-to-action.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Accessibility
+The website must be accessible to all users, including those with disabilities. This includes proper contrast ratios, keyboard navigation support, screen reader compatibility, and responsive design that works across all devices and screen sizes.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## Constraints
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Language Requirements
+All content must be in simple English that is easily understood by a general audience. Technical jargon should be avoided in favor of clear, everyday language.
 
-### [PRINCIPLE_6_NAME]
+### Design Standards
+The design must remain clean and lightweight with minimal external dependencies. Page loading times should be optimized and visual elements should support the content rather than distract from it.
 
+### Platform Compatibility
+The website must be fully responsive and function properly on both mobile and desktop devices. Single-page scroll navigation should be smooth and intuitive.
 
-[PRINCIPLE__DESCRIPTION]
+## Development Workflow
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Product Presentation
+Products (Juice, Biscuit, Nimco) must be prominently displayed with clear visual representation, simple descriptions, and visible calls-to-action. Each product section should be easily scannable and accessible from the main page.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Testing Requirements
+All changes must be tested on multiple devices and browsers to ensure consistent experience. Performance testing should verify that page load times remain fast and the site remains responsive.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Deployment Standards
+The website should maintain high availability with proper error handling. Changes should be deployed with minimal downtime and include rollback capabilities.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution establishes the fundamental principles that guide all development decisions for the food website. All features, design choices, and technical implementations must align with these principles. Any proposed changes that conflict with these principles require explicit justification and approval.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-28 | **Last Amended**: 2025-12-28
